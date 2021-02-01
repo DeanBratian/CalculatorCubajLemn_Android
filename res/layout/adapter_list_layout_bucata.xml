@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textViewNrBuc"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/_1"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/textViewLungime"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/_7"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDiametru"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/_44"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewSpecie"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/mesteacan"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewContainer"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/spate2"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewVolum"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="@string/_0_76"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>
+
+
+
+

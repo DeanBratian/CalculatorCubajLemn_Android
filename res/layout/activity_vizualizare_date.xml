@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VizualizareDateActivity">
+
+    <include
+        android:id="@+id/Toolbar"
+        layout="@layout/toolbar_viz_ins_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitluPagina"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#D8D2D2"
+        android:enabled="false"
+        android:fadeScrollbars="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/textviz"
+        android:textColor="#0B4E0E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Toolbar" />
+
+    <ListView
+        android:id="@+id/listviewbucatiordonate"
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitluPagina">
+
+        <TextView
+            android:id="@+id/textViewNrBuc"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/Nr"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewLungime"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/lungime"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewDiametru"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/diametru"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewSpecie"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/specie"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewContainer"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/container"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewVolum"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="#00C853"
+            android:gravity="center"
+            android:text="@string/volumb"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewTotalFata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="32dp"
+        android:background="#D8D2D2"
+        android:textColor="#0B4E0E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listviewbucatiordonate"
+        tools:text="total  c1" />
+
+    <TextView
+        android:id="@+id/textViewTotalSpate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:background="#D8D2D2"
+        android:textColor="#0B4E0E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVizualizare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTotalFata"
+        tools:text="total  c2" />
+
+    <Button
+        android:id="@+id/buttonVizualizare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0B4E0E"
+        android:fontFamily="sans-serif"
+        android:text="@string/btnins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

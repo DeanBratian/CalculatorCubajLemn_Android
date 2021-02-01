@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/vizualizare_raport"
+        android:id="@+id/VizRaport_Viz"
+        android:icon="@drawable/ic_report_black_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Sterge_Viz"
+        android:icon="@drawable/ic_delete_forever_24dp"
+        android:title="@string/sterge"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="@string/micsorare_diametre"
+        android:id="@+id/minusD_Viz"
+        app:showAsAction="never" />
+    <item
+        android:title="@string/marire_diametre"
+        android:id="@+id/plusD_Viz"
+        app:showAsAction="never" />
+
+
+
+
+
+
+
+</menu>

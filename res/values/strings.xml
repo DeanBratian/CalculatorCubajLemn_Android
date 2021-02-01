@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cubaj Lemn</string>
+    <string name="btnviz"> -> VIZUALIZARE DATE</string>
+    <string name="btnins"> -> INSERARE DATE</string>
+    <string name="btnadg">ADAUGA</string>
+    <string name="hntLungime">Lungime (m)</string>
+    <string name="hntDiametru">Diametru (cm)</string>
+    <string name="valVolumBucata">Volum bucata: 0.00</string>
+    <string name="textSpecie">Specie:</string>
+    <string name="textContainter">Loc stocare:</string>
+    <string name="textviz">Tab Vizualizare Date</string>
+    <string name="textins">Tab Inserare Date</string>
+    <string name="textrap">Tab Vizualizare Raport</string>
+    <string name="textmc">&#160;mc</string>
+    <string name="textvolumbuc">Volum bucata: </string>
+    <string name="specie_prompt">Alege specie</string>
+    <string name="container_prompt">Alege container</string>
+    <string name="Nr">#</string>
+    <string name="lungime">L</string>
+    <string name="diametru">D</string>
+    <string name="specie">Specie</string>
+    <string name="container">Stocat</string>
+    <string name="volumt">Vt</string>
+    <string name="volumb">Vb</string>
+    <string name="fata">Fata:</string>
+    <string name="spate">Spate:</string>
+    <string name="buc">#B</string>
+    <string name="_1">1</string>
+    <string name="_7">7</string>
+    <string name="_44">44</string>
+    <string name="spate2">Spate</string>
+    <string name="_0_76">0.76</string>
+    <string name="mesteacan">Mesteacan</string>
+    <string name="sterge_date_cache">Sterge date cache</string>
+    <string name="salveaza_raport_xls">Salveaza raport(csv)</string>
+    <string name="sterge">Stergere totala</string>
+    <string name="micsorare_diametre">Micsorare diametre</string>
+    <string name="marire_diametre">Marire diametre</string>
+    <string name="vizualizare_raport">Vizualizare raport</string>
+    <string name="inserare_multipla">Inserare multipla</string>
+
+
+</resources>
